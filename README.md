@@ -51,11 +51,11 @@ Despite the existence of more than 7000 languages in the world, a small group of
 
  We are using an open source dataset from common voice for our first round of training then we will use another set collected by the lab to train the model in healthcare domain. 
 
- The commonvoice data can be found on [their website](https://commonvoice.mozilla.org/en/datasets) By changing the language to swahili and in our case, choosing 
+ The commonvoice data can be found on [their website](https://commonvoice.mozilla.org/en/datasets) and then changing the language to swahili, and in our case, choosing 
 
-| version    | Date |Size|Recorded Hours|Validated Hours|License	Number of Voices|Audio Format|
-| ----------- | ----------- |--------|------|---|---|---|
-|Common Voice Delta Segment 12.0  | 12/22/2022 |2.03 GB|106|10|CC-0|273	MP3
+| version    | Date |Size|Recorded Hours|Validated Hours|License|	Number of Voices|Audio Format|
+| ----------- | ----------- |--------|------|---|---|---|---|
+|Common Voice Delta Segment 12.0  | 12/22/2022 |2.03 GB|106|10|CC-0|273|	MP3
  |
 
 
