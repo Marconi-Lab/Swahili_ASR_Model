@@ -1,1 +1,64 @@
-# Swahili_ASR_Model
+# Swahili ASR Model Documentation.
+---
+
+### `Introduction`
+
+Despite the existence of more than 7000 languages in the world, a small group of just 10 languages dominate the majority of internet usage, accounting for over 70% of global internet users [ according to Statista](https://www.statista.com/statistics/262946/share-of-the-most-common-languages-on-the-internet/) one of the leading providers of market and consumer data in the world.
+
+ This leaves a significant challenge for the development of conversational AI tools for the remaining over 6900 languages, which collectively account for less than 30% of internet usage and are considered low-resource languages.
+
+ ---
+
+ ### `Why does it matter?`
+
+ In the healthcare field, conversational AI tools can be used for tasks such as:
+ -  Symptom checking
+ -  Disease diagnosis
+ - Treatment recommendations
+ - Robust documentation
+ 
+ If these tools are developed primarily for the most widely-used languages such as English, they may not be able to accurately understand or respond to the unique symptoms, diseases, and cultural context of people who use low-resource languages. 
+ 
+ The problems that can result include:
+ - A lack of accurate diagnosis
+ - Inadequate treatment 
+ - Missing out on important medical information
+ 
+ All these results are examples of how a lack of representation of all languages in the digital space can lead to negative health outcomes.
+
+ ---
+
+ ### `What are we doing about it?`
+
+ In this project, we aim to develop domain specific ASR model for a low resource language.
+
+ domain -> Healthcare
+ 
+ Low-resource language -> Kiswahili
+
+---
+### `Why Healthcare?`
+
+ Africa is home to more than 2000 languages, a third of the world's spoken language [according to The African Language Program at Harvard](https://alp.fas.harvard.edu/introduction-african-languages#:~:text=With%20anywhere%20between%201000%20and,more%20than%20one%20million%20speakers.). Africa being an inhabitant of Low-income countries, it has a higher proportion of speakers of low-resource languages, and also have lower levels of internet penetration and access to technology. This means that individuals in these countries may be even less likely to have access to accurate and relevant healthcare information, yet they have [the highest burden of disease according to a report in 2019](https://ourworldindata.org/grapher/dalys-rate-from-all-causes).
+
+ Furthermore, in low-income countries, the healthcare system is often overwhelmed and underfunded, meaning that the healthcare providers are overworked, so the use of conversational AI tools could be a way to help in providing care and information to patients,
+
+ In conclusion, if these tools are not developed to support low-resource languages, it can further exacerbate existing health disparities and negatively impact the health and well-being of individuals in these countries.
+
+ ---
+
+ ### `Data`
+
+ We are using an open source dataset from common voice for our first round of training then we will use another set collected by the lab to train the model in healthcare domain. 
+
+ The commonvoice data can be found on [their website](https://commonvoice.mozilla.org/en/datasets) By changing the language to swahili and in our case, choosing 
+
+| version    | Date |Size|Recorded Hours|Validated Hours|License	Number of Voices|Audio Format|
+| ----------- | ----------- |--------|------|---|---|---|
+|Common Voice Delta Segment 12.0  | 12/22/2022 |2.03 GB|106|10|CC-0|273	MP3
+ |
+
+
+
+				
+---	
