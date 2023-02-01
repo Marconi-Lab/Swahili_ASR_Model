@@ -56,7 +56,13 @@ Despite the existence of more than 7000 languages in the world, a small group of
 | version    | Date |Size|Recorded Hours|Validated Hours|License|	Number of Voices|Audio Format|
 | ----------- | ----------- |--------|------|---|---|---|---|
 |Common Voice Delta Segment 12.0  | 12/22/2022 |2.03 GB|106|10|CC-0|273|	MP3
- |
+ 
+ ---
+ ### `Documentation`
+
+ This subsection contains write-ups that accompany this work.
+ 1. Week one narrative on [literature review](https://medium.com/@gitau_am/on-literature-review-asr-models-219fb2afcf37)
+
 
 
 
