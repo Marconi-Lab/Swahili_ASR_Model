@@ -11,7 +11,7 @@ Despite the existence of more than 7000 languages in the world, a small group of
 
  ### `Why does it matter?`
 
- In the healthcare field, conversational AI tools can be used for tasks such as:
+ Lets take an example with the healthcare domain, conversational AI tools can be used for tasks such as:
  -  Symptom checking
  -  Disease diagnosis
  - Treatment recommendations
@@ -24,20 +24,10 @@ Despite the existence of more than 7000 languages in the world, a small group of
  - Inadequate treatment 
  - Missing out on important medical information
  
- All these results are examples of how a lack of representation of all languages in the digital space can lead to negative health outcomes.
+ All these results are examples of how a lack of representation of all languages in the digital space can lead to negative health outcomes. 
 
- ---
 
- ### `What are we doing about it?`
-
- In this project, we aim to develop domain specific ASR model for a low resource language.
-
- domain -> Healthcare
- 
- Low-resource language -> Kiswahili
-
----
-### `Why Healthcare?`
+#### `Why Healthcare?`
 
  Africa is home to more than 2000 languages, a third of the world's spoken language [according to The African Language Program at Harvard](https://alp.fas.harvard.edu/introduction-african-languages#:~:text=With%20anywhere%20between%201000%20and,more%20than%20one%20million%20speakers.). Africa being an inhabitant of Low-income countries, it has a higher proportion of speakers of low-resource languages, and also have lower levels of internet penetration and access to technology. This means that individuals in these countries may be even less likely to have access to accurate and relevant healthcare information, yet they have [the highest burden of disease according to a report in 2019](https://ourworldindata.org/grapher/dalys-rate-from-all-causes).
 
@@ -47,16 +37,30 @@ Despite the existence of more than 7000 languages in the world, a small group of
 
  ---
 
+ ### `What are we doing about it?`
+
+ The ultimate goal of this project, therefore, is to help with robust documentation of swahili conversations between a doctor and a patient.
+
+ In this project, we aim to develop domain specific ASR model for a low resource language.
+
+ domain -> Healthcare
+ 
+ Low-resource language -> Kiswahili
+
+---
+
  ### `Data`
 
- We are using an open source dataset from common voice for our first round of training then we will use another set collected by the lab to train the model in healthcare domain. 
+ We are using an open source dataset from common voice that is available on [hugging face platform](https://huggingface.co/datasets/mozilla-foundation/common_voice_11_0)
 
- The commonvoice data can be found on [their website](https://commonvoice.mozilla.org/en/datasets) and then changing the language to swahili, and in our case, choosing 
+ We shall load the data into our notebook using the dataset object from hugging face as shown below.
 
-| version    | Date |Size|Recorded Hours|Validated Hours|License|	Number of Voices|Audio Format|
-| ----------- | ----------- |--------|------|---|---|---|---|
-|Common Voice Delta Segment 12.0  | 12/22/2022 |2.03 GB|106|10|CC-0|273|	MP3
- 
+ `from datasets import load_dataset`
+
+`common_voice_train = load_dataset("mozilla-foundation/common_voice_11_0", "sw", split="train")`
+
+ More commonvoice data can be found on [their website](https://commonvoice.mozilla.org/en/datasets).
+
  ---
  ### `Documentation`
 
@@ -67,4 +71,4 @@ Despite the existence of more than 7000 languages in the world, a small group of
 
 
 				
----	
+
