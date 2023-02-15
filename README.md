@@ -39,13 +39,9 @@ Despite the existence of more than 7000 languages in the world, a small group of
 
  ### `What are we doing about it?`
 
- The ultimate goal of this project, therefore, is to help with robust documentation of swahili conversations between a doctor and a patient.
-
- In this project, we aim to develop domain specific ASR model for a low resource language.
-
- domain -> Healthcare
+ The main objective of this project is to create a robust documentation system for Swahili conversations between healthcare professionals and patients. 
  
- Low-resource language -> Kiswahili
+ To achieve this, we aim to develop a Kiswahili ASR (Automatic Speech Recognition) model that is specific to the healthcare domain.
 
 ---
 
@@ -65,9 +61,9 @@ Despite the existence of more than 7000 languages in the world, a small group of
  ### `Documentation`
 
  This subsection contains write-ups that accompany this work.
- 1. Week one narrative on [literature review](https://medium.com/@gitau_am/on-literature-review-asr-models-219fb2afcf37)
+ 1. A narrative on [literature review](https://medium.com/@gitau_am/on-literature-review-asr-models-219fb2afcf37)
 
-
+2. A second narrative on [data preparation](https://medium.com/@gitau_am/from-raw-data-to-accurate-speech-recognition-asr-my-journey-of-data-preparation-df3a1b0dee3a)
 
 
 				
