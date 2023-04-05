@@ -47,7 +47,7 @@ Despite the existence of more than 7000 languages in the world, a small group of
 
  
  ---
- `Fine-tuned Model`
+ ### `Fine-tuned Model`
 
 
  We hosted the model on [Hugging Face Hub](https://huggingface.co/AntonyG/fine-tune-wav2vec2-large-xls-r-1b-sw). You can upload a swahili clip from your files, or record from the browser to get a transcription. *(You get experience some errors in the transcription. We are working to make the model smarter)*
@@ -57,16 +57,26 @@ Despite the existence of more than 7000 languages in the world, a small group of
  ### `Documentation`
 
 1. Notebooks on this repo:
-- 
+- [Audio pre-processing notebook](https://github.com/Marconi-Lab/Swahili_ASR_Model/blob/main/Audio%20reprocessing%20pipeline.ipynb) and [EDA](https://github.com/Marconi-Lab/Swahili_ASR_Model/blob/main/EDA.ipynb) are series of functions for converting a raw audio to MFCCs.
 
- This subsection contains write-ups that accompany this work.
- 1. A narrative on [literature review](https://medium.com/@gitau_am/on-literature-review-asr-models-219fb2afcf37)
+- [Fine_tuning_(a_pretrained_model)_for_Swahili_ASR](https://github.com/Marconi-Lab/Swahili_ASR_Model/blob/main/Fine_tuning_(a_pretrained_model)_for_Swahili_ASR.ipynb) Pre-processing the data from hugging face.
 
-2. A second narrative on [data preparation](https://medium.com/@gitau_am/from-raw-data-to-accurate-speech-recognition-asr-my-journey-of-data-preparation-df3a1b0dee3a)
+- [Fine_tuning_XLS_R_Wav2Vec2_with_Swahili_corpus_v1](https://github.com/Marconi-Lab/Swahili_ASR_Model/blob/main/Fine_tuning_XLS_R_Wav2Vec2_with_Swahili_corpus_v1.ipynb) is the initial attempt to train on Google colab, but unsuccessful due to limited computing resources.
 
-3. A third narrative on [model development](https://medium.com/@gitau_am/exploring-asr-model-development-fine-tuning-xls-r-wav2vec2-model-with-swahili-data-b95134d116b8)
+- [Fine_tuning_XLS-R with swahili corpus](https://github.com/Marconi-Lab/Swahili_ASR_Model/blob/main/Fine_tuning_XLS_R_Wav2Vec2_with_Swahili_corpus.ipynb) is version 1 of fine-tuning and storing the checkpoints on drive.
 
-4. The overall [technical report](https://drive.google.com/file/d/1mMf7kf4hrU6nJT8GOcgznWIHwMtdYrGm/view?usp=sharing)
+- [Fine_tuning_XLS-R with swahili corpus](https://github.com/Marconi-Lab/Swahili_ASR_Model/blob/main/Fine_tuning_XLS_R_Wav2Vec2_with_Swahili_corpus_v2.ipynb) is version 2 of fine-tuning and pushed our model checkpoints to Hugging Face Hub.
+
+- [Real_Time_Speech_Recognition_on_Gradio](https://github.com/Marconi-Lab/Swahili_ASR_Model/blob/main/Real_Time_Speech_Recognition_on_Gradio.ipynb) is version 1 attempt to host our model on gradio.
+
+2.  write-ups that accompany this work:
+ - A narrative on [literature review](https://medium.com/@gitau_am/on-literature-review-asr-models-219fb2afcf37)
+
+- A second narrative on [data preparation](https://medium.com/@gitau_am/from-raw-data-to-accurate-speech-recognition-asr-my-journey-of-data-preparation-df3a1b0dee3a)
+
+- A third narrative on [model development](https://medium.com/@gitau_am/exploring-asr-model-development-fine-tuning-xls-r-wav2vec2-model-with-swahili-data-b95134d116b8)
+
+- The overall [technical report](https://drive.google.com/file/d/1mMf7kf4hrU6nJT8GOcgznWIHwMtdYrGm/view?usp=sharing)
 
 
 				
