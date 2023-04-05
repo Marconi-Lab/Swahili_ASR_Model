@@ -50,7 +50,7 @@ Despite the existence of more than 7000 languages in the world, a small group of
  ### `Fine-tuned Model`
 
 
- We hosted the model on [Hugging Face Hub](https://huggingface.co/AntonyG/fine-tune-wav2vec2-large-xls-r-1b-sw). You can upload a swahili clip from your files, or record from the browser to get a transcription. *(You get experience some errors in the transcription. We are working to make the model smarter)*
+ We hosted the model on [Hugging Face Hub](https://huggingface.co/AntonyG/fine-tune-wav2vec2-large-xls-r-1b-sw). You can upload a swahili clip from your files, or record from the browser to get a transcription. *(You may experience some errors in the transcription. We are working to make the model smarter)*
 
 
  ---
