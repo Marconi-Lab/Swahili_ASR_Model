@@ -65,6 +65,10 @@ Despite the existence of more than 7000 languages in the world, a small group of
 
 2. A second narrative on [data preparation](https://medium.com/@gitau_am/from-raw-data-to-accurate-speech-recognition-asr-my-journey-of-data-preparation-df3a1b0dee3a)
 
+3. A third narrative on [model development](https://medium.com/@gitau_am/exploring-asr-model-development-fine-tuning-xls-r-wav2vec2-model-with-swahili-data-b95134d116b8)
+
+4. The overall [technical report](/home/antonym/Documents/Marconi_Lab/Swahili_ASR_Model/Antony-Marconi-2023.pdf)
+
 
 				
 
